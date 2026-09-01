@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>민수의 디지털 성장 포트폴리오 - 민민이네 아카이브</title>
+    <link rel="stylesheet" href="css/archive.css">
+    <style>
+        :root {
+            --primary-accent: #00f2fe;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="top-header">
+        <a href="index.html" class="brand-logo">
+            <span class="brand-icon">👦</span>
+            <div class="brand-text">
+                <h1>민수의 디지털 성장 포트폴리오</h1>
+                <p>창의적 미술, 과학 탐구, 프로젝트 기록 아카이브</p>
+            </div>
+        </a>
+        <div class="header-links">
+            <a href="index.html" class="nav-link-btn">🏛️ 전체 아카이브</a>
+            <a href="minseo.html" class="nav-link-btn">👧 민서 아카이브</a>
+            <a href="../kids-school-main/lobby.html" class="nav-link-btn primary">🏫 초등 공부방으로 이동</a>
+        </div>
+    </header>
+
+    <section class="archive-hero">
+        <div class="hero-box" style="border-color: rgba(0,242,254,0.35);">
+            <div class="hero-content">
+                <h2 style="color: #00f2fe;">🚀 김민수의 창의 탐구 & 예술 포트폴리오</h2>
+                <p>
+                    대담한 상상력과 논리적 탐구심으로 완성해 나가는 민수만의 특별한 성장 기록입니다. 초등학교부터 중·고등학교까지의 모든 작품과 성취를 체계적으로 기록합니다.
+                </p>
+                <div class="timeline-stepper">
+                    <button class="stage-node active" onclick="setStageFilter('all', this)">🌟 전체 연대기</button>
+                    <button class="stage-node" onclick="setStageFilter('초등', this)">🎒 초등 5학년</button>
+                    <button class="stage-node" onclick="setStageFilter('중등', this)">🏫 중학교</button>
+                    <button class="stage-node" onclick="setStageFilter('고등', this)">🎓 고등학교</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🎛️ 카테고리 필터 -->
+    <section class="toolbar-section">
+        <div class="category-filter-group">
+            <button class="cat-btn active" onclick="setCategoryFilter('all', this)">전체 분야</button>
+            <button class="cat-btn" onclick="setCategoryFilter('미술/드로잉', this)">🎨 미술/드로잉</button>
+            <button class="cat-btn" onclick="setCategoryFilter('상장/수상', this)">🏆 상장/수상</button>
+            <button class="cat-btn" onclick="setCategoryFilter('프로젝트/연구', this)">🏫 프로젝트/연구</button>
+        </div>
+    </section>
+
+    <main class="archive-container">
+        <div class="archive-grid" id="archiveGrid"></div>
+    </main>
+
+    <!-- 🪟 고화질 작품 상세 모달 -->
+    <div class="modal-overlay" id="detailModal">
+        <div class="modal-container">
+            <button class="modal-close-btn" onclick="closeArchiveDetail()">✕</button>
+            <div class="modal-media-viewport">
+                <img src="" alt="작품 고화질 원본" id="modalImg" class="modal-media-img">
+                <button class="modal-media-zoom-btn" onclick="openOriginalMedia()">🪟 무손실 원본 보기</button>
+            </div>
+            <div class="modal-details">
+                <div class="modal-title-row">
+                    <div>
+                        <h2 class="modal-title" id="modalTitle">작품 제목</h2>
+                        <div class="modal-meta-bar">
+                            <span id="modalAuthorTag" class="card-author-pill pill-minsu">민수</span>
+                            <span id="modalCategoryTag">🎨 미술/드로잉 · 초등학교 5학년</span>
+                            <span id="modalDateTag">📅 2026-09-02</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-quote-box">
+                    <p class="modal-quote-text" id="modalDescription">작품에 대한 상세 설명이 들어갑니다.</p>
+                </div>
+
+                <div class="learning-points-box" id="modalLearningBox">
+                    <div class="learning-points-title">💡 탐구 과정 및 성장 역량</div>
+                    <ul class="learning-points-list" id="modalLearningList"></ul>
+                </div>
+
+                <div class="modal-praise-box">
+                    <div style="font-family:'Jua',sans-serif; font-size:1.1rem; color:#fff;">💖 가족 칭찬 스티커</div>
+                    <div class="praise-sticker-row">
+                        <button class="praise-btn" onclick="addReaction('heart')"><span>❤️ 사랑해</span> <span class="praise-count" id="reactionCount_heart">0</span></button>
+                        <button class="praise-btn" onclick="addReaction('thumb')"><span>👍 최고야</span> <span class="praise-count" id="reactionCount_thumb">0</span></button>
+                        <button class="praise-btn" onclick="addReaction('star')"><span>✨ 눈부셔</span> <span class="praise-count" id="reactionCount_star">0</span></button>
+                        <button class="praise-btn" onclick="addReaction('trophy')"><span>🏆 대단해</span> <span class="praise-count" id="reactionCount_trophy">0</span></button>
+                    </div>
+
+                    <div style="margin-top:10px; font-family:'Jua',sans-serif; font-size:1rem; color:#fff;">💬 가족 응원 방명록</div>
+                    <div id="modalCommentsList"></div>
+                    <div style="display:flex; gap:8px; margin-top:8px;">
+                        <select id="commentAuthorSelect" style="padding:10px; border-radius:10px; background:#161b22; color:#fff; border:1px solid var(--border-color); font-family:'Jua',sans-serif;">
+                            <option value="아빠">👨 아빠</option>
+                            <option value="엄마">👩 엄마</option>
+                            <option value="민수">👦 민수</option>
+                            <option value="민서">👧 민서</option>
+                        </select>
+                        <input type="text" id="commentTextInput" style="flex:1; padding:10px 14px; border-radius:10px; background:#161b22; color:#fff; border:1px solid var(--border-color);" placeholder="민수에게 따뜻한 칭찬 한마디를 적어주세요!" onkeydown="if(event.key==='Enter') submitComment()">
+                        <button onclick="submitComment()" style="background:var(--primary-accent); color:#000; font-weight:bold; border:none; padding:10px 18px; border-radius:10px; font-family:'Jua',sans-serif; cursor:pointer;">남기기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data/archive-master-data.js"></script>
+    <script src="js/archive-engine.js"></script>
+    <script>
+        window.addEventListener('load', () => {
+            initArchiveEngine('minsu');
+        });
+    </script>
+</body>
+</html>

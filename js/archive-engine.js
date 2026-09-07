@@ -2,6 +2,8 @@
 // 민민이네 디지털 성장 아카이브 뷰어 & 필터 엔진
 
 const ARCHIVE_STORAGE_KEY = 'MINMIN_GROWTH_ARCHIVE_DATA';
+const ARCHIVE_STORAGE_VERSION_KEY = 'MINMIN_ARCHIVE_VER';
+const CURRENT_ARCHIVE_VER = 'v20260907_clean';
 let archiveData = [];
 let currentStudent = 'all';
 let currentStage = 'all';
@@ -16,6 +18,13 @@ function initArchiveEngine(defaultStudent = 'all') {
 }
 
 function loadArchiveData() {
+    // 🛡️ 구버전 더미 댓글/반응 캐시 자동 정화 (Purge)
+    const savedVer = localStorage.getItem(ARCHIVE_STORAGE_VERSION_KEY);
+    if (savedVer !== CURRENT_ARCHIVE_VER) {
+        localStorage.removeItem(ARCHIVE_STORAGE_KEY);
+        localStorage.setItem(ARCHIVE_STORAGE_VERSION_KEY, CURRENT_ARCHIVE_VER);
+    }
+
     const saved = localStorage.getItem(ARCHIVE_STORAGE_KEY);
     let customItems = [];
     let savedReactionsMap = {};

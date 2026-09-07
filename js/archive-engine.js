@@ -93,9 +93,24 @@ function renderArchiveGrid() {
     grid.innerHTML = '';
 
     const filtered = archiveData.filter(item => {
-        const matchStudent = (currentStudent === 'all') || (item.studentKey === currentStudent) || (item.student === currentStudent);
+        const matchStudent = (currentStudent === 'all') || 
+            (item.studentKey === currentStudent) || 
+            (item.student === currentStudent) ||
+            (item.studentKey === 'together');
         const matchStage = (currentStage === 'all') || (item.stage === currentStage);
-        const matchCategory = (currentCategory === 'all') || (item.category === currentCategory);
+        
+        let matchCategory = (currentCategory === 'all');
+        if (!matchCategory) {
+            if (currentCategory === '미술/드로잉') {
+                matchCategory = (item.category === '미술/드로잉' || item.category === '그림/미술');
+            } else if (currentCategory === '만들기/입체공예') {
+                matchCategory = (item.category === '만들기/입체공예' || item.category === '만들기/공예');
+            } else if (currentCategory === '상장/수상') {
+                matchCategory = (item.category === '상장/수상' || item.category === '상장/기념');
+            } else {
+                matchCategory = (item.category === currentCategory);
+            }
+        }
         return matchStudent && matchStage && matchCategory;
     });
 
@@ -114,7 +129,9 @@ function renderArchiveGrid() {
         card.className = 'archive-card';
         card.onclick = () => openArchiveDetail(item.id);
 
-        const authorPillClass = (item.student === '민수' || item.studentKey === 'minsu') ? 'pill-minsu' : 'pill-minseo';
+        const authorPillClass = (item.student === '민수' || item.studentKey === 'minsu') 
+            ? 'pill-minsu' 
+            : ((item.student === '공동' || item.studentKey === 'together') ? 'pill-together' : 'pill-minseo');
         const commentsCount = (item.comments && item.comments.length) || 0;
         const totalLikes = item.likes || 0;
 
@@ -149,8 +166,8 @@ function updateStatsBar() {
     const minseoEl = document.getElementById('statArchiveMinseo');
 
     if (totalEl) totalEl.textContent = archiveData.length;
-    if (minsuEl) minsuEl.textContent = archiveData.filter(i => i.student === '민수' || i.studentKey === 'minsu').length;
-    if (minseoEl) minseoEl.textContent = archiveData.filter(i => i.student === '민서' || i.studentKey === 'minseo').length;
+    if (minsuEl) minsuEl.textContent = archiveData.filter(i => i.student === '민수' || i.studentKey === 'minsu' || i.studentKey === 'together').length;
+    if (minseoEl) minseoEl.textContent = archiveData.filter(i => i.student === '민서' || i.studentKey === 'minseo' || i.studentKey === 'together').length;
 }
 
 // 🪟 상세 모달 열기
@@ -164,7 +181,7 @@ function openArchiveDetail(id) {
     
     const authorTag = document.getElementById('modalAuthorTag');
     authorTag.textContent = item.student;
-    authorTag.className = `card-author-pill ${(item.student === '민수' || item.studentKey === 'minsu') ? 'pill-minsu' : 'pill-minseo'}`;
+    authorTag.className = `card-author-pill ${(item.student === '민수' || item.studentKey === 'minsu') ? 'pill-minsu' : ((item.student === '공동' || item.studentKey === 'together') ? 'pill-together' : 'pill-minseo')}`;
 
     document.getElementById('modalCategoryTag').textContent = `${item.categoryIcon || '🎨'} ${item.category} · ${item.stageName || item.stage}`;
     document.getElementById('modalDateTag').textContent = `📅 ${item.date}`;

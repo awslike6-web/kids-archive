@@ -312,6 +312,7 @@ body {
 }
 .pill-minsu { background: linear-gradient(135deg, #00f2fe, #4facfe); color: #000; }
 .pill-minseo { background: linear-gradient(135deg, #ff758c, #ff7eb3); color: #fff; }
+.pill-together { background: linear-gradient(135deg, #10b981, #06b6d4); color: #fff; }
 
 .card-body {
     padding: 20px;

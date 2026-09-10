@@ -4,6 +4,39 @@
 
 const ARCHIVE_MASTER_DATA = [
   {
+    "id": "act_minseo_20260910_peanut",
+    "student": "민서",
+    "studentKey": "minseo",
+    "stage": "초등",
+    "stageName": "초등학교 1학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-09-10",
+    "category": "학교체험/자연",
+    "categoryIcon": "🌱",
+    "title": "5학년 선배들이 선물한 가을 텃밭 땅콩 수확",
+    "coverImage": "assets/media/minseo/activities/minseo_20260910_peanut_01_single.jpg",
+    "galleryImages": [
+      "assets/media/minseo/activities/minseo_20260910_peanut_01_single.jpg",
+      "assets/media/minseo/activities/minseo_20260910_peanut_02_friends.jpg",
+      "assets/media/minseo/activities/minseo_20260910_peanut_03_harvest.jpg"
+    ],
+    "description": "우리 학교 5학년 선배들이 정성껏 재배한 땅콩을 수확하는 뜻깊은 기회를 1학년이 선물 받았어요! 땅콩 줄기를 쑥 뽑아보고 땅콩 단을 번쩍 안고 사진도 찍었습니다. 흙 속에서 갓 딴 땅콩을 깨끗이 씻어 말리는 중인데, 잘 건조되면 고소하게 맛볼 것이랍니다!",
+    "learningPoints": [
+      "자연과 생태에 대한 탐구심 및 텃밭 수확의 기쁨 체득",
+      "5학년 선배와 1학년 후배 간의 따뜻한 나눔과 학교 공동체 협동심 함양"
+    ],
+    "awards": "특별한 하루 추억 피드 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
     "id": "art_together_20260906_204444",
     "student": "공동",
     "studentKey": "together",

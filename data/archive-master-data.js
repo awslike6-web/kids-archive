@@ -4,6 +4,38 @@
 
 const ARCHIVE_MASTER_DATA = [
   {
+    "id": "act_minseo_20260915_birthday",
+    "student": "민서",
+    "studentKey": "minseo",
+    "stage": "초등",
+    "stageName": "초등학교 1학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-09-15",
+    "category": "가족기념일/생일",
+    "categoryIcon": "🎂",
+    "title": "사랑하는 민서의 8번째 생일 파티 (꽃다발과 슬라임 선물)",
+    "coverImage": "assets/media/minseo/activities/minseo_20260915_birthday_01_flower.png",
+    "galleryImages": [
+      "assets/media/minseo/activities/minseo_20260915_birthday_01_flower.png",
+      "assets/media/minseo/activities/minseo_20260915_birthday_02_slime.jpg"
+    ],
+    "description": "민서의 8번째 생일을 맞이하여 온 가족이 모여 행복한 생일 축하 파티를 열었어요! 반짝반짝 은은한 LED 조명이 켜진 예쁜 꽃다발과 알록달록 박사퍼티 슬라임 선물을 받고 민서 얼굴에 웃음꽃이 활짝 피었습니다. 아빠가 수노 AI로 직접 만든 감동의 생일 축하 노래와 성장 사진 뮤직비디오, 가족들의 다정한 축하와 사랑이 가득 넘쳤던 세상에서 가장 따뜻하고 특별한 하루였습니다.",
+    "learningPoints": [
+      "가족 간의 따뜻한 유대감과 축하를 통한 긍정적 자아 존중감 및 정서적 안정감 형성",
+      "음악(수노 AI 생일송)과 시각적 조형물(LED 꽃다발/슬라임/사진)을 통한 예술적·감성적 공감 능력 체득"
+    ],
+    "awards": "특별한 하루 추억 피드 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
     "id": "act_minseo_20260910_peanut",
     "student": "민서",
     "studentKey": "minseo",
@@ -37,26 +69,149 @@ const ARCHIVE_MASTER_DATA = [
     "comments": []
   },
   {
-    "id": "art_together_20260906_204444",
-    "student": "공동",
-    "studentKey": "together",
+    "id": "art_minseo_20260918_111036(1)",
+    "student": "민서",
+    "studentKey": "minseo",
     "stage": "초등",
-    "stageName": "민수 & 민서 합작",
+    "stageName": "초등학교 1학년",
     "year": 2026,
     "semester": "2학기",
-    "date": "2026-09-06",
+    "date": "2026-09-18",
     "category": "만들기/공예",
-    "categoryIcon": "🌿",
-    "title": "푸른 이끼 요정의 비밀 테라리움 병",
-    "coverImage": "assets/media/together/2026_elem/together_20260906_204444.png",
+    "categoryIcon": "🌕",
+    "title": "달토끼 방아 찧는 한가위 우드 모빌",
+    "coverImage": "assets/media/minseo/2026_elem_1/minseo_20260918_111036(1).jpg",
     "galleryImages": [
-      "assets/media/together/2026_elem/together_20260906_204444.png"
+      "assets/media/minseo/2026_elem_1/minseo_20260918_111036(1).jpg"
     ],
-    "description": "유리병 속에 푸른 모래와 촉촉한 이끼, 식물을 정성껏 심고 귀여운 눈동자 요정 친구들을 넣어 완성한 남매 합작 테라리움 정원입니다!",
+    "description": "둥근 보름달 속에서 옥토끼 두 마리가 정답게 방아를 찧는 모습을 알록달록 색칠하고 조립해 완성한 한가위 전통 원목 벽걸이 모빌입니다!",
     "learningPoints": [
-      "공간 감각 및 입체 조형 구조화 능력 발휘",
       "다양한 자연물 및 복합 재료를 활용한 소근육 응용력",
-      "공동만의 독창적인 예술적 상상력과 미적 탐구"
+      "민서만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "art_minseo_28129358_1789698695249740",
+    "student": "민서",
+    "studentKey": "minseo",
+    "stage": "초등",
+    "stageName": "초등학교 1학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-09-18",
+    "category": "만들기/공예",
+    "categoryIcon": "⌚",
+    "title": "하트 콕콕 핑크 종이접기 손목시계",
+    "coverImage": "assets/media/minseo/2026_elem_1/minseo_28129358_1789698695249740.jpg",
+    "galleryImages": [
+      "assets/media/minseo/2026_elem_1/minseo_28129358_1789698695249740.jpg"
+    ],
+    "description": "예쁜 핫핑크와 연핑크 색종이를 정성껏 접어 시계 줄을 만들고, 반짝이 하트와 손으로 직접 시침·분침을 그려 넣은 세상에 하나뿐인 나만의 패션 손목시계예요!",
+    "learningPoints": [
+      "다양한 자연물 및 복합 재료를 활용한 소근육 응용력",
+      "민서만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "art_minsu_20260915_212259(1)",
+    "student": "민수",
+    "studentKey": "minsu",
+    "stage": "초등",
+    "stageName": "초등학교 5학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-09-15",
+    "category": "만들기/공예",
+    "categoryIcon": "🔔",
+    "title": "맑은 소리 울리는 표정 도자기 풍경(종)",
+    "coverImage": "assets/media/minsu/2026_elem_5/minsu_20260915_212259(1).jpg",
+    "galleryImages": [
+      "assets/media/minsu/2026_elem_5/minsu_20260915_212259(1).jpg"
+    ],
+    "description": "흙으로 빚은 도자기 종에 개성 넘치는 표정과 눈물방울을 익살스럽게 그리고 구슬과 바람추를 연결해 완성한 감성 도자기 풍경(윈드차임)입니다!",
+    "learningPoints": [
+      "다양한 자연물 및 복합 재료를 활용한 소근육 응용력",
+      "민수만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "art_minsu_20260909_민수일기_반려동물체험",
+    "student": "민수",
+    "studentKey": "minsu",
+    "stage": "초등",
+    "stageName": "초등학교 5학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-09-09",
+    "category": "그림/미술",
+    "categoryIcon": "🎨",
+    "title": "민수의 창의 예술 작품 (동물체험)",
+    "coverImage": "assets/media/minsu/2026_elem_5/minsu_20260909_민수일기_반려동물체험.jpg",
+    "galleryImages": [
+      "assets/media/minsu/2026_elem_5/minsu_20260909_민수일기_반려동물체험.jpg"
+    ],
+    "description": "민수가 정성을 듬뿍 담아 완성한 소중하고 멋진 작품입니다.",
+    "learningPoints": [
+      "선과 색채의 조화를 통한 시각적 감정 표현력",
+      "민수만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "art_minsu_20260908_민수일기_보건수업",
+    "student": "민수",
+    "studentKey": "minsu",
+    "stage": "초등",
+    "stageName": "초등학교 5학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-09-08",
+    "category": "그림/미술",
+    "categoryIcon": "🎨",
+    "title": "민수의 창의 예술 작품 (보건수업)",
+    "coverImage": "assets/media/minsu/2026_elem_5/minsu_20260908_민수일기_보건수업.jpg",
+    "galleryImages": [
+      "assets/media/minsu/2026_elem_5/minsu_20260908_민수일기_보건수업.jpg"
+    ],
+    "description": "민수가 정성을 듬뿍 담아 완성한 소중하고 멋진 작품입니다.",
+    "learningPoints": [
+      "선과 색채의 조화를 통한 시각적 감정 표현력",
+      "민수만의 독창적인 예술적 상상력과 미적 탐구"
     ],
     "awards": "가족 갤러리 명예의 전당 등록",
     "likes": 0,

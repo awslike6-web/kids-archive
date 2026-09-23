@@ -20,9 +20,15 @@
         <div class="header-links">
             <a href="minsu.html" class="nav-link-btn">👦 민수 아카이브</a>
             <a href="minseo.html" class="nav-link-btn">👧 민서 아카이브</a>
-            <a href="https://awslike6-web.github.io/kids-school/lobby.html" class="nav-link-btn primary">🏫 초등 공부방으로 이동</a>
+            <a href="https://awslike6-web.github.io/kids-school/" class="nav-link-btn primary" id="btnGoKidsSchool">🏫 초등 공부방으로 이동</a>
         </div>
     </header>
+    <script>
+        if (window.location.protocol === 'file:' || window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+            const btn = document.getElementById('btnGoKidsSchool');
+            if (btn) btn.href = '../kids-school-main/index.html';
+        }
+    </script>
 
     <!-- 🏰 메인 히어로 배너 -->
     <section class="archive-hero">

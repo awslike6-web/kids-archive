@@ -47,6 +47,12 @@ function loadArchiveData() {
         }
     }
 
+    const savedCustomMeta = localStorage.getItem('GALLERY_CUSTOM_META');
+    let customMetaMap = {};
+    if (savedCustomMeta) {
+        try { customMetaMap = JSON.parse(savedCustomMeta); } catch (e) {}
+    }
+
     const masterList = (typeof ARCHIVE_MASTER_DATA !== 'undefined' ? ARCHIVE_MASTER_DATA : []).map(item => {
         const copy = { ...item };
         if (savedReactionsMap[item.id]) {
@@ -54,6 +60,19 @@ function loadArchiveData() {
             copy.likes = Object.values(savedReactionsMap[item.id]).reduce((a, b) => a + b, 0);
         }
         if (savedCommentsMap[item.id]) copy.comments = savedCommentsMap[item.id];
+
+        // 🎨 웹 편집 커스텀 메타데이터(분야/일자/제목/한마디) 연동
+        if (customMetaMap[item.id]) {
+            const cm = customMetaMap[item.id];
+            if (cm.title) copy.title = cm.title;
+            if (cm.category) {
+                copy.category = cm.category;
+                copy.categoryIcon = cm.categoryIcon || (cm.category.includes('만들기') ? '✂️' : (cm.category.includes('종이접기') ? '📐' : (cm.category.includes('상장') ? '🏆' : (cm.category.includes('탐구') ? '🔬' : '🎨'))));
+            }
+            if (cm.date) copy.date = cm.date;
+            if (cm.artistNote) copy.description = cm.artistNote;
+        }
+
         return copy;
     });
 

@@ -4,6 +4,161 @@
 
 const ARCHIVE_MASTER_DATA = [
   {
+    "id": "art_minsu_20260922_213854",
+    "student": "민수",
+    "studentKey": "minsu",
+    "stage": "초등",
+    "stageName": "초등학교 5학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-09-22",
+    "category": "그림/미술",
+    "categoryIcon": "🎨",
+    "title": "민수의 창의 예술 작품 (3854)",
+    "coverImage": "assets/media/minsu/2026_elem_5/minsu_20260922_213854.jpg",
+    "galleryImages": [
+      "assets/media/minsu/2026_elem_5/minsu_20260922_213854.jpg"
+    ],
+    "description": "민수가 정성을 듬뿍 담아 완성한 소중하고 멋진 작품입니다.",
+    "learningPoints": [
+      "선과 색채의 조화를 통한 시각적 감정 표현력",
+      "민수만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "art_minsu_20260922_214010",
+    "student": "민수",
+    "studentKey": "minsu",
+    "stage": "초등",
+    "stageName": "초등학교 5학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-09-22",
+    "category": "그림/미술",
+    "categoryIcon": "🎨",
+    "title": "민수의 창의 예술 작품 (4010)",
+    "coverImage": "assets/media/minsu/2026_elem_5/minsu_20260922_214010.jpg",
+    "galleryImages": [
+      "assets/media/minsu/2026_elem_5/minsu_20260922_214010.jpg"
+    ],
+    "description": "민수가 정성을 듬뿍 담아 완성한 소중하고 멋진 작품입니다.",
+    "learningPoints": [
+      "선과 색채의 조화를 통한 시각적 감정 표현력",
+      "민수만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "art_minseo_20260922_212553",
+    "student": "민서",
+    "studentKey": "minseo",
+    "stage": "초등",
+    "stageName": "초등학교 1학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-09-22",
+    "category": "그림/미술",
+    "categoryIcon": "🎨",
+    "title": "민서의 창의 예술 작품 (2553)",
+    "coverImage": "assets/media/minseo/2026_elem_1/minseo_20260922_212553.jpg",
+    "galleryImages": [
+      "assets/media/minseo/2026_elem_1/minseo_20260922_212553.jpg"
+    ],
+    "description": "민서가 정성을 듬뿍 담아 완성한 소중하고 멋진 작품입니다.",
+    "learningPoints": [
+      "선과 색채의 조화를 통한 시각적 감정 표현력",
+      "민서만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "art_minseo_20260922_212617",
+    "student": "민서",
+    "studentKey": "minseo",
+    "stage": "초등",
+    "stageName": "초등학교 1학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-09-22",
+    "category": "그림/미술",
+    "categoryIcon": "🎨",
+    "title": "민서의 창의 예술 작품 (2617)",
+    "coverImage": "assets/media/minseo/2026_elem_1/minseo_20260922_212617.jpg",
+    "galleryImages": [
+      "assets/media/minseo/2026_elem_1/minseo_20260922_212617.jpg"
+    ],
+    "description": "민서가 정성을 듬뿍 담아 완성한 소중하고 멋진 작품입니다.",
+    "learningPoints": [
+      "선과 색채의 조화를 통한 시각적 감정 표현력",
+      "민서만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "art_minseo_20260922_212802",
+    "student": "민서",
+    "studentKey": "minseo",
+    "stage": "초등",
+    "stageName": "초등학교 1학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-09-22",
+    "category": "만들기/공예",
+    "categoryIcon": "✂️",
+    "title": "민서의 창의 예술 작품 (2802)",
+    "coverImage": "assets/media/minseo/2026_elem_1/minseo_20260922_212802.png",
+    "galleryImages": [
+      "assets/media/minseo/2026_elem_1/minseo_20260922_212802.png"
+    ],
+    "description": "민서가 정성을 듬뿍 담아 완성한 소중하고 멋진 작품입니다.",
+    "learningPoints": [
+      "다양한 자연물 및 복합 재료를 활용한 소근육 응용력",
+      "민서만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
     "id": "art_minseo_20260918_111036(1)",
     "student": "민서",
     "studentKey": "minseo",
@@ -13,7 +168,7 @@ const ARCHIVE_MASTER_DATA = [
     "semester": "2학기",
     "date": "2026-09-18",
     "category": "만들기/공예",
-    "categoryIcon": "🌕",
+    "categoryIcon": "✂️",
     "title": "달토끼 방아 찧는 한가위 우드 모빌",
     "coverImage": "assets/media/minseo/2026_elem_1/minseo_20260918_111036(1).jpg",
     "galleryImages": [
@@ -43,8 +198,8 @@ const ARCHIVE_MASTER_DATA = [
     "year": 2026,
     "semester": "2학기",
     "date": "2026-09-18",
-    "category": "만들기/공예",
-    "categoryIcon": "⌚",
+    "category": "종이접기/디자인",
+    "categoryIcon": "📐",
     "title": "하트 콕콕 핑크 종이접기 손목시계",
     "coverImage": "assets/media/minseo/2026_elem_1/minseo_28129358_1789698695249740.jpg",
     "galleryImages": [
@@ -52,7 +207,7 @@ const ARCHIVE_MASTER_DATA = [
     ],
     "description": "예쁜 핫핑크와 연핑크 색종이를 정성껏 접어 시계 줄을 만들고, 반짝이 하트와 손으로 직접 시침·분침을 그려 넣은 세상에 하나뿐인 나만의 패션 손목시계예요!",
     "learningPoints": [
-      "다양한 자연물 및 복합 재료를 활용한 소근육 응용력",
+      "선과 색채의 조화를 통한 시각적 감정 표현력",
       "민서만의 독창적인 예술적 상상력과 미적 탐구"
     ],
     "awards": "가족 갤러리 명예의 전당 등록",
@@ -75,7 +230,7 @@ const ARCHIVE_MASTER_DATA = [
     "semester": "2학기",
     "date": "2026-09-15",
     "category": "만들기/공예",
-    "categoryIcon": "🔔",
+    "categoryIcon": "✂️",
     "title": "맑은 소리 울리는 표정 도자기 풍경(종)",
     "coverImage": "assets/media/minsu/2026_elem_5/minsu_20260915_212259(1).jpg",
     "galleryImages": [
@@ -169,7 +324,7 @@ const ARCHIVE_MASTER_DATA = [
     "semester": "2학기",
     "date": "2026-09-06",
     "category": "만들기/공예",
-    "categoryIcon": "🎄",
+    "categoryIcon": "✂️",
     "title": "메리 크리스마스 입체 우드 트리 무드등",
     "coverImage": "assets/media/minsu/2026_elem_5/minsu_20260906_204259.jpg",
     "galleryImages": [

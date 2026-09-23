@@ -12,47 +12,17 @@ const ARCHIVE_MASTER_DATA = [
     "year": 2026,
     "semester": "2학기",
     "date": "2026-09-22",
-    "category": "그림/미술",
-    "categoryIcon": "🎨",
-    "title": "민수의 창의 예술 작품 (3854)",
+    "category": "만들기/공예",
+    "categoryIcon": "✂️",
+    "title": "괴수대백과 (로텤스펲펲 & 뿌쀳히탈탈)",
     "coverImage": "assets/media/minsu/2026_elem_5/minsu_20260922_213854.jpg",
     "galleryImages": [
-      "assets/media/minsu/2026_elem_5/minsu_20260922_213854.jpg"
-    ],
-    "description": "민수가 정성을 듬뿍 담아 완성한 소중하고 멋진 작품입니다.",
-    "learningPoints": [
-      "선과 색채의 조화를 통한 시각적 감정 표현력",
-      "민수만의 독창적인 예술적 상상력과 미적 탐구"
-    ],
-    "awards": "가족 갤러리 명예의 전당 등록",
-    "likes": 0,
-    "reactions": {
-      "heart": 0,
-      "thumb": 0,
-      "star": 0,
-      "trophy": 0
-    },
-    "comments": []
-  },
-  {
-    "id": "art_minsu_20260922_214010",
-    "student": "민수",
-    "studentKey": "minsu",
-    "stage": "초등",
-    "stageName": "초등학교 5학년",
-    "year": 2026,
-    "semester": "2학기",
-    "date": "2026-09-22",
-    "category": "그림/미술",
-    "categoryIcon": "🎨",
-    "title": "민수의 창의 예술 작품 (4010)",
-    "coverImage": "assets/media/minsu/2026_elem_5/minsu_20260922_214010.jpg",
-    "galleryImages": [
+      "assets/media/minsu/2026_elem_5/minsu_20260922_213854.jpg",
       "assets/media/minsu/2026_elem_5/minsu_20260922_214010.jpg"
     ],
-    "description": "민수가 정성을 듬뿍 담아 완성한 소중하고 멋진 작품입니다.",
+    "description": "접고 펼쳐보는 상상 속 괴수대백과예요!\n(왼쪽부터)\n• 이름 : 로텤스펲펲 | 능력 : 사람을 늘릴 수 있고, 집을 뒤집을 수 있다.\n• 이름 : 모름? | 능력 : 모름?\n• 이름 : 뿌쀳히탈탈 | 능력 : 5분 뒤에 복제됨\n• 이름 : 콧툰봉돔돌 | 능력 : 사람 조종 / 사람을 안으면 인형이 됨",
     "learningPoints": [
-      "선과 색채의 조화를 통한 시각적 감정 표현력",
+      "다양한 자연물 및 복합 재료를 활용한 소근육 응용력",
       "민수만의 독창적인 예술적 상상력과 미적 탐구"
     ],
     "awards": "가족 갤러리 명예의 전당 등록",
@@ -74,16 +44,16 @@ const ARCHIVE_MASTER_DATA = [
     "year": 2026,
     "semester": "2학기",
     "date": "2026-09-22",
-    "category": "그림/미술",
-    "categoryIcon": "🎨",
-    "title": "민서의 창의 예술 작품 (2553)",
+    "category": "만들기/공예",
+    "categoryIcon": "✂️",
+    "title": "복이 듬뿍 담기는 알록달록 복주머니",
     "coverImage": "assets/media/minseo/2026_elem_1/minseo_20260922_212553.jpg",
     "galleryImages": [
       "assets/media/minseo/2026_elem_1/minseo_20260922_212553.jpg"
     ],
-    "description": "민서가 정성을 듬뿍 담아 완성한 소중하고 멋진 작품입니다.",
+    "description": "추석을 맞이하여 온 가족의 건강과 행복을 바라는 마음을 담아 정성껏 만든 예쁜 복주머니예요!",
     "learningPoints": [
-      "선과 색채의 조화를 통한 시각적 감정 표현력",
+      "다양한 자연물 및 복합 재료를 활용한 소근육 응용력",
       "민서만의 독창적인 예술적 상상력과 미적 탐구"
     ],
     "awards": "가족 갤러리 명예의 전당 등록",
@@ -105,16 +75,16 @@ const ARCHIVE_MASTER_DATA = [
     "year": 2026,
     "semester": "2학기",
     "date": "2026-09-22",
-    "category": "그림/미술",
-    "categoryIcon": "🎨",
-    "title": "민서의 창의 예술 작품 (2617)",
+    "category": "만들기/공예",
+    "categoryIcon": "✂️",
+    "title": "행운과 소원을 적은 말발굽 공예",
     "coverImage": "assets/media/minseo/2026_elem_1/minseo_20260922_212617.jpg",
     "galleryImages": [
       "assets/media/minseo/2026_elem_1/minseo_20260922_212617.jpg"
     ],
-    "description": "민서가 정성을 듬뿍 담아 완성한 소중하고 멋진 작품입니다.",
+    "description": "늘봄학교에서 말 친구들을 만나고 행운을 가져다주는 말발굽에 소중한 마음과 소원을 적어 예쁘게 꾸몄어요!",
     "learningPoints": [
-      "선과 색채의 조화를 통한 시각적 감정 표현력",
+      "다양한 자연물 및 복합 재료를 활용한 소근육 응용력",
       "민서만의 독창적인 예술적 상상력과 미적 탐구"
     ],
     "awards": "가족 갤러리 명예의 전당 등록",
@@ -138,12 +108,12 @@ const ARCHIVE_MASTER_DATA = [
     "date": "2026-09-22",
     "category": "만들기/공예",
     "categoryIcon": "✂️",
-    "title": "민서의 창의 예술 작품 (2802)",
+    "title": "추석맞이 클레이 송편 비누",
     "coverImage": "assets/media/minseo/2026_elem_1/minseo_20260922_212802.png",
     "galleryImages": [
       "assets/media/minseo/2026_elem_1/minseo_20260922_212802.png"
     ],
-    "description": "민서가 정성을 듬뿍 담아 완성한 소중하고 멋진 작품입니다.",
+    "description": "클레이처럼 조물조물 빚어 만든 알록달록 추석 송편 비누예요! 가정에서 깨끗하게 손을 씻을 때 사용할 수 있답니다.",
     "learningPoints": [
       "다양한 자연물 및 복합 재료를 활용한 소근육 응용력",
       "민서만의 독창적인 예술적 상상력과 미적 탐구"

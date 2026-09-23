@@ -163,10 +163,17 @@ function renderArchiveGrid() {
         const commentsCount = (item.comments && item.comments.length) || 0;
         const totalLikes = item.likes || 0;
 
+        const multiPhotoBadgeHtml = (item.galleryImages && item.galleryImages.length > 1) ? `
+            <span style="position:absolute; bottom:12px; right:12px; z-index:2; background:rgba(0,0,0,0.7); backdrop-filter:blur(4px); color:#fff; font-size:0.78rem; font-family:'Jua', sans-serif; padding:4px 8px; border-radius:8px; border:1px solid rgba(255,255,255,0.2); display:flex; align-items:center; gap:4px;">
+                <span>📷</span> ${item.galleryImages.length}장
+            </span>
+        ` : '';
+
         card.innerHTML = `
-            <div class="card-cover-wrap">
+            <div class="card-cover-wrap" style="position:relative;">
                 <span class="card-stage-pill">${item.stageName || item.stage}</span>
                 <span class="card-author-pill ${authorPillClass}">${item.student}</span>
+                ${multiPhotoBadgeHtml}
                 <img src="${item.coverImage}" alt="${item.title}" class="card-cover-img" onerror="this.src='https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=1000'">
             </div>
             <div class="card-body">
@@ -204,8 +211,44 @@ function openArchiveDetail(id) {
     if (!item) return;
     activeItemId = id;
 
-    document.getElementById('modalImg').src = item.coverImage;
+    const imgUrl = item.coverImage || (item.galleryImages && item.galleryImages[0]) || '';
+    document.getElementById('modalImg').src = imgUrl;
     document.getElementById('modalTitle').textContent = item.title;
+    
+    // 🖼️ 다중 사진 썸네일 스위처 제어
+    const thumbsContainer = document.getElementById('modalThumbsContainer');
+    const images = (item.galleryImages && item.galleryImages.length > 0) ? item.galleryImages : (item.coverImage ? [item.coverImage] : []);
+    if (thumbsContainer) {
+        if (images.length > 1) {
+            thumbsContainer.style.display = 'flex';
+            thumbsContainer.innerHTML = '';
+            images.forEach((imgSrc, idx) => {
+                const thumbBtn = document.createElement('button');
+                thumbBtn.type = 'button';
+                thumbBtn.className = `modal-thumb-btn ${idx === 0 ? 'active' : ''}`;
+                thumbBtn.title = `사진 ${idx + 1} 보기`;
+                thumbBtn.style.cssText = `
+                    width: 54px; height: 54px; border-radius: 10px; border: 2.5px solid ${idx === 0 ? 'var(--primary-accent, #58a6ff)' : 'rgba(255,255,255,0.2)'};
+                    padding: 0; overflow: hidden; cursor: pointer; background: #0d1117; transition: all 0.2s ease;
+                    box-shadow: ${idx === 0 ? '0 2px 8px rgba(88,166,255,0.4)' : 'none'};
+                `;
+                thumbBtn.innerHTML = `<img src="${imgSrc}" style="width:100%; height:100%; object-fit:cover; display:block;" alt="사진 ${idx + 1}">`;
+                thumbBtn.onclick = () => {
+                    document.getElementById('modalImg').src = imgSrc;
+                    thumbsContainer.querySelectorAll('.modal-thumb-btn').forEach(b => {
+                        b.style.borderColor = 'rgba(255,255,255,0.2)';
+                        b.style.boxShadow = 'none';
+                    });
+                    thumbBtn.style.borderColor = 'var(--primary-accent, #58a6ff)';
+                    thumbBtn.style.boxShadow = '0 2px 8px rgba(88,166,255,0.4)';
+                };
+                thumbsContainer.appendChild(thumbBtn);
+            });
+        } else {
+            thumbsContainer.style.display = 'none';
+            thumbsContainer.innerHTML = '';
+        }
+    }
     
     const authorTag = document.getElementById('modalAuthorTag');
     authorTag.textContent = item.student;
@@ -244,10 +287,9 @@ function closeArchiveDetail() {
 }
 
 function openOriginalMedia() {
-    if (!activeItemId) return;
-    const item = archiveData.find(i => i.id === activeItemId);
-    if (item && item.coverImage) {
-        window.open(item.coverImage, '_blank');
+    const modalImg = document.getElementById('modalImg');
+    if (modalImg && modalImg.src) {
+        window.open(modalImg.src, '_blank');
     }
 }
 

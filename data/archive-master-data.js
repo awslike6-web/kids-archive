@@ -4,6 +4,70 @@
 
 const ARCHIVE_MASTER_DATA = [
   {
+    "id": "art_minseo_20260929_200109",
+    "student": "민서",
+    "studentKey": "minseo",
+    "stage": "초등",
+    "stageName": "초등학교 1학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-09-29",
+    "category": "만들기/공예",
+    "categoryIcon": "✂️",
+    "title": "알쏭달쏭 사슴 단추 액자",
+    "coverImage": "assets/media/minseo/2026_elem_1/minseo_20260929_200109.png",
+    "galleryImages": [
+      "assets/media/minseo/2026_elem_1/minseo_20260929_200109.png"
+    ],
+    "description": "학교에서 정성껏 만든 알쏭달쏭 입체 액자예요! 예쁜 사슴 뿔 위에 알록달록 무지개색 단추들을 하나하나 정성스럽게 붙여 멋진 뿔을 완성했답니다. 🦌✨",
+    "learningPoints": [
+      "공간 감각 및 입체 조형 구조화 능력 발휘",
+      "다양한 자연물 및 복합 재료를 활용한 소근육 응용력",
+      "민서만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "art_minseo_20260929_200356",
+    "student": "민서",
+    "studentKey": "minseo",
+    "stage": "초등",
+    "stageName": "초등학교 1학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-09-29",
+    "category": "상장/기념",
+    "categoryIcon": "🏆",
+    "title": "말랑말랑 마음교실 수료증 (한국마사회 기승능력인증서)",
+    "coverImage": "assets/media/minseo/2026_elem_1/minseo_20260929_200356.png",
+    "galleryImages": [
+      "assets/media/minseo/2026_elem_1/minseo_20260929_200356.png",
+      "assets/media/minseo/2026_elem_1/minseo_20260929_195554.png"
+    ],
+    "description": "학교에서 화요일마다 참여한 말랑말랑 마음교실 말 체험을 멋지게 수료하고 받은 한국마사회 기승능력인증 수료증이에요! 말을 사랑하고 감사하는 따뜻한 마음을 배웠답니다. 🐴📜",
+    "learningPoints": [
+      "선과 색채의 조화를 통한 시각적 감정 표현력",
+      "민서만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
     "id": "art_minsu_20260922_213854",
     "student": "민수",
     "studentKey": "minsu",

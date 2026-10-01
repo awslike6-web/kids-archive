@@ -4,6 +4,38 @@
 
 const ARCHIVE_MASTER_DATA = [
   {
+    "id": "art_minsu_20260930_212456",
+    "student": "민수",
+    "studentKey": "minsu",
+    "stage": "초등",
+    "stageName": "초등학교 5학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-09-30",
+    "category": "상장/기념",
+    "categoryIcon": "🏆",
+    "title": "동물매개치료 기초 & 산책 훈련 인증서 (곁에 있개)",
+    "coverImage": "assets/media/minsu/2026_elem_5/minsu_20260930_212456.png",
+    "galleryImages": [
+      "assets/media/minsu/2026_elem_5/minsu_20260930_212456.png",
+      "assets/media/minsu/2026_elem_5/minsu_20260930_212357.png"
+    ],
+    "description": "원신초등학교에서 참여한 동물매개치료 체험학습에서 강아지와 깊이 교감하며 멋지게 합격한 '기초 훈련 & 산책 훈련' 공식 인증서예요! 앉아, 손, 엎드려, 하이파이브부터 배변 정리와 도우미동물 배려까지 완벽하게 해냈답니다. 🐶🎖️",
+    "learningPoints": [
+      "선과 색채의 조화를 통한 시각적 감정 표현력",
+      "민수만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
     "id": "art_minseo_20260929_200109",
     "student": "민서",
     "studentKey": "minseo",

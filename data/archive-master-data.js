@@ -4,6 +4,37 @@
 
 const ARCHIVE_MASTER_DATA = [
   {
+    "id": "art_minsu_20261020_123016",
+    "student": "민수",
+    "studentKey": "minsu",
+    "stage": "초등",
+    "stageName": "초등학교 5학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-10-20",
+    "category": "만들기/공예",
+    "categoryIcon": "✂️",
+    "title": "달콤한 딸기 & 초코 조각 케이크 미니어처 모형",
+    "coverImage": "assets/media/minsu/2026_elem_5/minsu_20261020_123016.jpg",
+    "galleryImages": [
+      "assets/media/minsu/2026_elem_5/minsu_20261020_123016.jpg"
+    ],
+    "description": "알록달록 딸기 생크림과 마카롱, 진한 초콜릿과 와플 쿠키를 정성껏 꾸며 완성한 세상에서 가장 달콤한 입체 조각 케이크 모형이에요! 🍰🍫",
+    "learningPoints": [
+      "다양한 자연물 및 복합 재료를 활용한 소근육 응용력",
+      "민수만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
     "id": "art_minsu_20260930_212456",
     "student": "민수",
     "studentKey": "minsu",

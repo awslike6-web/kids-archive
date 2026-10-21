@@ -4,6 +4,37 @@
 
 const ARCHIVE_MASTER_DATA = [
   {
+    "id": "art_minseo_KakaoTalk_20261021_152143970_01",
+    "student": "민서",
+    "studentKey": "minseo",
+    "stage": "초등",
+    "stageName": "초등학교 1학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-10-21",
+    "category": "그림/미술",
+    "categoryIcon": "🎨",
+    "title": "2026 전교생 가을 나눔 장터 (민서)",
+    "coverImage": "assets/media/minseo/2026_elem_1/minseo_KakaoTalk_20261021_152143970_01.jpg",
+    "galleryImages": [
+      "assets/media/minseo/2026_elem_1/minseo_KakaoTalk_20261021_152143970_01.jpg"
+    ],
+    "description": "2026년 가을 나눔 장터에서 돗자리를 펴고 인형들을 판매하며 현명한 소비와 경제를 배운 뜻깊은 하루! (전체 학년 합동 행사) 🧸🧺🍂",
+    "learningPoints": [
+      "선과 색채의 조화를 통한 시각적 감정 표현력",
+      "민서만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
     "id": "art_minsu_20261020_123016",
     "student": "민수",
     "studentKey": "minsu",
@@ -23,6 +54,37 @@ const ARCHIVE_MASTER_DATA = [
     "learningPoints": [
       "다양한 자연물 및 복합 재료를 활용한 소근육 응용력",
       "민수만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "art_minseo_20261020_123112",
+    "student": "민서",
+    "studentKey": "minseo",
+    "stage": "초등",
+    "stageName": "초등학교 1학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-10-20",
+    "category": "만들기/공예",
+    "categoryIcon": "✂️",
+    "title": "바다 속 세상 미니 서랍장",
+    "coverImage": "assets/media/minseo/2026_elem_1/minseo_20261020_123112.jpg",
+    "galleryImages": [
+      "assets/media/minseo/2026_elem_1/minseo_20261020_123112.jpg"
+    ],
+    "description": "바다 그림을 바탕으로 알록달록 무지개와 파도, 클레이 물고기, 꽃게, 문어로 입체감 있게 꾸민 나만의 소중한 미니 서랍장이에요! 🌊🦀🐙",
+    "learningPoints": [
+      "다양한 자연물 및 복합 재료를 활용한 소근육 응용력",
+      "민서만의 독창적인 예술적 상상력과 미적 탐구"
     ],
     "awards": "가족 갤러리 명예의 전당 등록",
     "likes": 0,

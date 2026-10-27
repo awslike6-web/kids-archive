@@ -4,6 +4,38 @@
 
 const ARCHIVE_MASTER_DATA = [
   {
+    "id": "art_minsu_20261020_moodlight_real",
+    "student": "민수",
+    "studentKey": "minsu",
+    "stage": "초등",
+    "stageName": "초등학교 5학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-10-25",
+    "category": "만들기/공예",
+    "categoryIcon": "✂️",
+    "title": "빛나는 원통 무드등과 3D 회전 AI 작품 💡✨",
+    "coverImage": "assets/media/minsu/2026_elem_5/minsu_20261020_moodlight_real.jpg",
+    "galleryImages": [
+      "assets/media/minsu/2026_elem_5/minsu_20261020_moodlight_real.jpg",
+      "assets/media/minsu/2026_elem_5/minsu_20261025_moodlight_drawing.jpg"
+    ],
+    "description": "민수가 직접 그린 투명 도안(알코올 램프, 국어책, 손소독제, '44교시' 등)을 투명 원통에 넣고 LED 조명을 밝혀 완성한 입체 무드등이에요! 아빠가 사방에서 사진을 찍은 뒤 구글 플로우 AI에게 회전 영상으로 만들어달라고 주문했더니, 원본과는 살짝 다르게 AI 임의대로 아주 깔끔하고 매끄러운 3D 원통 조형물로 재해석해 만들어주었답니다. 도안과 실물, 그리고 AI 회전 영상까지 함께 기록해요! 💡🎨",
+    "learningPoints": [
+      "다양한 자연물 및 복합 재료를 활용한 소근육 응용력",
+      "민수만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
     "id": "art_minseo_20261022_pet_trainer_01",
     "student": "민서",
     "studentKey": "minseo",

@@ -4,6 +4,39 @@
 
 const ARCHIVE_MASTER_DATA = [
   {
+    "id": "art_minsu_20261028_paldo_bibimmyeon",
+    "student": "민수",
+    "studentKey": "minsu",
+    "stage": "초등",
+    "stageName": "초등학교 5학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-10-28",
+    "category": "만들기/공예",
+    "categoryIcon": "✂️",
+    "title": "종이컵 팔도 비빔면 (면발·스프·해산물 토핑 입체 공예 & AI 영상)",
+    "coverImage": "assets/media/minsu/2026_elem_5/minsu_20261028_paldo_bibimmyeon.jpg",
+    "galleryImages": [
+      "assets/media/minsu/2026_elem_5/minsu_20261028_paldo_bibimmyeon.jpg",
+      "assets/media/minsu/2026_elem_5/minsu_20261028_paldo_bibimmyeon_toppings.jpg"
+    ],
+    "description": "종이컵에 파란색 팔도 비빔면 포장지를 입히고, 뚜껑과 노란 면발, 스프, 계란후라이, 새우, 문어, 버섯 등 푸짐한 종이 토핑을 정성껏 오려 만든 입체 비빔면 작품입니다.",
+    "learningPoints": [
+      "공간 감각 및 입체 조형 구조화 능력 발휘",
+      "다양한 자연물 및 복합 재료를 활용한 소근육 응용력",
+      "민수만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
     "id": "art_minsu_20261020_moodlight_real",
     "student": "민수",
     "studentKey": "minsu",

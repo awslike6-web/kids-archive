@@ -37,6 +37,39 @@ const ARCHIVE_MASTER_DATA = [
     "comments": []
   },
   {
+    "id": "art_minseo_20261028_seasons_tree",
+    "student": "민서",
+    "studentKey": "minseo",
+    "stage": "초등",
+    "stageName": "초등학교 1학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-10-28",
+    "category": "그림/미술",
+    "categoryIcon": "🎨",
+    "title": "사계절 나무의 신비로운 변화 (여름·가을·겨울 그림 & AI 영상)",
+    "coverImage": "assets/media/minseo/2026_elem_1/minseo_20261028_seasons_tree.jpg",
+    "galleryImages": [
+      "assets/media/minseo/2026_elem_1/minseo_20261028_seasons_tree.jpg",
+      "assets/media/minseo/2026_elem_1/minseo_20261028_seasons_tree_autumn.jpg",
+      "assets/media/minseo/2026_elem_1/minseo_20261028_seasons_tree_winter.jpg"
+    ],
+    "description": "여름의 푸른 숲과 따스한 해님, 가을의 붉고 노란 단풍, 겨울로 이어지는 사계절 나무의 모습을 민서의 상상력으로 그린 그림과 AI 변신 영상입니다.",
+    "learningPoints": [
+      "선과 색채의 조화를 통한 시각적 감정 표현력",
+      "민서만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
     "id": "art_minsu_20261020_moodlight_real",
     "student": "민수",
     "studentKey": "minsu",

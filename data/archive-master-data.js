@@ -22,7 +22,7 @@ const ARCHIVE_MASTER_DATA = [
       "assets/media/minseo/2026_elem_1/minseo_20261029_3d_knit_bust.png",
       "assets/media/minseo/2026_elem_1/minseo_20261029_3d_knit_turnaround.png"
     ],
-    "description": "",
+    "description": "트레이닝복을 입고 체육관을 힘차게 달리는 민서와 따뜻한 민트 스웨터를 입은 민서의 다양한 3D 캐릭터 모습이에요! 정면 흉상부터 3면도까지 정성껏 완성한 나만의 3D 캐릭터 컬렉션입니다. 🏃‍♀️💚",
     "learningPoints": [
       "선과 색채의 조화를 통한 시각적 감정 표현력",
       "민서만의 독창적인 예술적 상상력과 미적 탐구"

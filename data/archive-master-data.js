@@ -4,6 +4,40 @@
 
 const ARCHIVE_MASTER_DATA = [
   {
+    "id": "art_minseo_20261029_3d_characters",
+    "student": "민서",
+    "studentKey": "minseo",
+    "stage": "초등",
+    "stageName": "초등학교 1학년",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-10-29",
+    "category": "종이접기/디자인",
+    "categoryIcon": "📐",
+    "title": "민서의 3D 패션 & 러닝 캐릭터 컬렉션 🏃‍♀️✨",
+    "coverImage": "assets/media/minseo/2026_elem_1/minseo_20261029_3d_characters.png",
+    "galleryImages": [
+      "assets/media/minseo/2026_elem_1/minseo_20261029_3d_characters.png",
+      "assets/media/minseo/2026_elem_1/minseo_20261029_3d_track_bust.png",
+      "assets/media/minseo/2026_elem_1/minseo_20261029_3d_knit_bust.png",
+      "assets/media/minseo/2026_elem_1/minseo_20261029_3d_knit_turnaround.png"
+    ],
+    "description": "트레이닝복을 입고 체육관을 힘차게 달리는 민서와 따뜻한 민트 스웨터를 입은 민서의 다양한 3D 캐릭터 모습이에요! 정면 흉상부터 3면도까지 정성껏 완성한 나만의 3D 캐릭터 컬렉션입니다. 🏃‍♀️💚",
+    "learningPoints": [
+      "선과 색채의 조화를 통한 시각적 감정 표현력",
+      "민서만의 독창적인 예술적 상상력과 미적 탐구"
+    ],
+    "awards": "가족 갤러리 명예의 전당 등록",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
     "id": "art_minsu_20261028_paldo_bibimmyeon",
     "student": "민수",
     "studentKey": "minsu",

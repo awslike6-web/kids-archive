@@ -102,68 +102,6 @@ const ARCHIVE_MASTER_DATA = [
     "comments": []
   },
   {
-    "id": "art_minseo_20261022_pet_trainer_01",
-    "student": "민서",
-    "studentKey": "minseo",
-    "stage": "초등",
-    "stageName": "초등학교 1학년",
-    "year": 2026,
-    "semester": "2학기",
-    "date": "2026-10-22",
-    "category": "그림/미술",
-    "categoryIcon": "🎨",
-    "title": "진로체험: 반려동물 훈련사와의 만남!",
-    "coverImage": "assets/media/minseo/2026_elem_1/minseo_20261022_pet_trainer_01.jpg",
-    "galleryImages": [
-      "assets/media/minseo/2026_elem_1/minseo_20261022_pet_trainer_01.jpg"
-    ],
-    "description": "진로주간을 맞아 1-2학년 친구들이 멋진 반려동물 훈련사 선생님과 함께하는 특별한 진로체험 시간을 가졌어요! 민서도 훈련사 선생님의 지도에 따라 온순하고 착한 강아지를 다정하게 쓰다듬어 주며 깊은 교감을 나누었답니다. 동물과 소통하고 존중하는 법을 배우며 마음이 한 뼘 더 따뜻해진 소중한 하루였습니다! 🐶🐾✨",
-    "learningPoints": [
-      "선과 색채의 조화를 통한 시각적 감정 표현력",
-      "민서만의 독창적인 예술적 상상력과 미적 탐구"
-    ],
-    "awards": "가족 갤러리 명예의 전당 등록",
-    "likes": 0,
-    "reactions": {
-      "heart": 0,
-      "thumb": 0,
-      "star": 0,
-      "trophy": 0
-    },
-    "comments": []
-  },
-  {
-    "id": "art_minseo_KakaoTalk_20261021_152143970_01",
-    "student": "민서",
-    "studentKey": "minseo",
-    "stage": "초등",
-    "stageName": "초등학교 1학년",
-    "year": 2026,
-    "semester": "2학기",
-    "date": "2026-10-21",
-    "category": "그림/미술",
-    "categoryIcon": "🎨",
-    "title": "2026 전교생 가을 나눔 장터 (민서)",
-    "coverImage": "assets/media/minseo/2026_elem_1/minseo_KakaoTalk_20261021_152143970_01.jpg",
-    "galleryImages": [
-      "assets/media/minseo/2026_elem_1/minseo_KakaoTalk_20261021_152143970_01.jpg"
-    ],
-    "description": "2026년 가을 나눔 장터에서 돗자리를 펴고 인형들을 판매하며 현명한 소비와 경제를 배운 뜻깊은 하루! (전체 학년 합동 행사) 🧸🧺🍂",
-    "learningPoints": [
-      "선과 색채의 조화를 통한 시각적 감정 표현력",
-      "민서만의 독창적인 예술적 상상력과 미적 탐구"
-    ],
-    "awards": "가족 갤러리 명예의 전당 등록",
-    "likes": 0,
-    "reactions": {
-      "heart": 0,
-      "thumb": 0,
-      "star": 0,
-      "trophy": 0
-    },
-    "comments": []
-  },
-  {
     "id": "art_minsu_20261020_123016",
     "student": "민수",
     "studentKey": "minsu",

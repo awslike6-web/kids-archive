@@ -5,7 +5,7 @@
 const ARCHIVE_MASTER_DATA = [
   {
     "id": "evt_together_gyeongdong_market_20261031",
-    "student": "공통",
+    "student": "공동",
     "studentKey": "together",
     "stage": "초등",
     "stageName": "초등학교 생활·체험 활동",

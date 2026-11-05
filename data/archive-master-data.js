@@ -4,6 +4,34 @@
 
 const ARCHIVE_MASTER_DATA = [
   {
+    "id": "evt_together_gyeongdong_market_20261031",
+    "student": "공통",
+    "studentKey": "together",
+    "stage": "초등",
+    "stageName": "초등학교 생활·체험 활동",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-10-31",
+    "category": "소풍/현장학습",
+    "categoryIcon": "☕",
+    "title": "☕ 레트로 감성 가득한 경동시장 나들이 & 커피한약방 탐방!",
+    "coverImage": "assets/media/together/activities/together_20261031_gyeongdong_market_01.jpg",
+    "galleryImages": [
+      "assets/media/together/activities/together_20261031_gyeongdong_market_01.jpg"
+    ],
+    "description": "가을 정취가 가득한 10월의 마지막 날, 온 가족이 함께 활기 넘치는 경동시장으로 특별한 나들이를 다녀왔습니다! 전통시장의 정겨운 풍경과 맛있는 먹거리들을 구경하고, 고풍스럽고 독특한 레트로 한옥 감성이 물씬 풍기는 명소 '커피한약방'에 들러 따뜻하고 향긋한 시간도 보냈어요. 구글 포토 동영상으로 담아둔 가족의 소중하고 행복한 시장 나들이 추억입니다! ☕🏮🍂✨",
+    "learningPoints": [],
+    "awards": "특별한 날 추억",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
     "id": "art_minseo_20261029_3d_characters",
     "student": "민서",
     "studentKey": "minseo",
@@ -1603,22 +1631,22 @@ const ARCHIVE_MASTER_DATA = [
     "comments": []
   },
   {
-    "id": "evt_together_gyeongdong_market_20261031",
-    "student": "공통",
-    "studentKey": "together",
+    "id": "evt_minseo_lotteworld_20261105",
+    "student": "민서",
+    "studentKey": "minseo",
     "stage": "초등",
     "stageName": "초등학교 생활·체험 활동",
     "year": 2026,
     "semester": "2학기",
-    "date": "2026-10-31",
+    "date": "2026-11-05",
     "category": "소풍/현장학습",
-    "categoryIcon": "☕",
-    "title": "☕ 레트로 감성 가득한 경동시장 나들이 & 커피한약방 탐방!",
-    "coverImage": "assets/media/together/activities/together_20261031_gyeongdong_market_01.jpg",
+    "categoryIcon": "🏰",
+    "title": "🏰 민서와 함께한 마법 같은 롯데월드 모험! 🎡🐰",
+    "coverImage": "assets/media/minseo/activities/minseo_20261105_lotteworld_01.jpg",
     "galleryImages": [
-      "assets/media/together/activities/together_20261031_gyeongdong_market_01.jpg"
+      "assets/media/minseo/activities/minseo_20261105_lotteworld_01.jpg"
     ],
-    "description": "가을 정취가 가득한 10월의 마지막 날, 온 가족이 함께 활기 넘치는 경동시장으로 특별한 나들이를 다녀왔습니다! 전통시장의 정겨운 풍경과 맛있는 먹거리들을 구경하고, 고풍스럽고 독특한 레트로 한옥 감성이 물씬 풍기는 명소 '커피한약방'에 들러 따뜻하고 향긋한 시간도 보냈어요. 구글 포토 동영상으로 담아둔 가족의 소중하고 행복한 시장 나들이 추억입니다! ☕🏮🍂✨",
+    "description": "민서와 함께 환상의 나라 롯데월드로 마법 같은 가을 나들이를 다녀왔습니다! 토끼 귀 머리띠를 예쁘게 쓰고 무지개 의자에 앉아 씩씩하게 차례를 기다린 우리 민서, 생각보다 무서운 놀이기구들도 씩씩하고 용감하게 잘 타서 아빠를 깜짝 놀라게 했어요! 화려하고 신비로운 10분 롯데월드 퍼레이드 쇼와 알록달록 놀이기구들의 즐거운 순간들을 사진과 영상으로 가득 담았습니다. 🎡🎢🎠🐰✨",
     "learningPoints": [],
     "awards": "특별한 날 추억",
     "likes": 0,

@@ -1601,6 +1601,34 @@ const ARCHIVE_MASTER_DATA = [
       "trophy": 0
     },
     "comments": []
+  },
+  {
+    "id": "evt_together_gyeongdong_market_20261031",
+    "student": "공통",
+    "studentKey": "together",
+    "stage": "초등",
+    "stageName": "초등학교 생활·체험 활동",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-10-31",
+    "category": "소풍/현장학습",
+    "categoryIcon": "☕",
+    "title": "☕ 레트로 감성 가득한 경동시장 나들이 & 커피한약방 탐방!",
+    "coverImage": "assets/media/together/activities/together_20261031_gyeongdong_market_01.jpg",
+    "galleryImages": [
+      "assets/media/together/activities/together_20261031_gyeongdong_market_01.jpg"
+    ],
+    "description": "가을 정취가 가득한 10월의 마지막 날, 온 가족이 함께 활기 넘치는 경동시장으로 특별한 나들이를 다녀왔습니다! 전통시장의 정겨운 풍경과 맛있는 먹거리들을 구경하고, 고풍스럽고 독특한 레트로 한옥 감성이 물씬 풍기는 명소 '커피한약방'에 들러 따뜻하고 향긋한 시간도 보냈어요. 구글 포토 동영상으로 담아둔 가족의 소중하고 행복한 시장 나들이 추억입니다! ☕🏮🍂✨",
+    "learningPoints": [],
+    "awards": "특별한 날 추억",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
   }
 ];
 

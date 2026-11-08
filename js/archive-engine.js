@@ -1,5 +1,5 @@
 // 🏛️ kids-archive/js/archive-engine.js
-// 민민이네 디지털 성장 아카이브 뷰어 & 필터 엔진
+// 김s 디지털 성장 아카이브 뷰어 & 필터 엔진
 
 const ARCHIVE_STORAGE_KEY = 'MINMIN_GROWTH_ARCHIVE_DATA';
 const ARCHIVE_STORAGE_VERSION_KEY = 'MINMIN_ARCHIVE_VER';
@@ -339,7 +339,8 @@ function submitComment() {
     if (!item) return;
 
     if (!item.comments) item.comments = [];
-    const todayStr = new Date().toISOString().split('T')[0];
+    const now = new Date();
+    const todayStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
     item.comments.push({ author, text, date: todayStr });
 
     textInput.value = '';

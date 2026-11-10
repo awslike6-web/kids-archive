@@ -32,6 +32,34 @@ const ARCHIVE_MASTER_DATA = [
     "comments": []
   },
   {
+    "id": "evt_minseo_lotteworld_20261105",
+    "student": "민서",
+    "studentKey": "minseo",
+    "stage": "초등",
+    "stageName": "초등학교 생활·체험 활동",
+    "year": 2026,
+    "semester": "2학기",
+    "date": "2026-11-05",
+    "category": "소풍/현장학습",
+    "categoryIcon": "🏰",
+    "title": "🏰 민서와 함께한 마법 같은 롯데월드 모험! 🎡🐰",
+    "coverImage": "assets/media/minseo/activities/minseo_20261105_lotteworld_01.jpg",
+    "galleryImages": [
+      "assets/media/minseo/activities/minseo_20261105_lotteworld_01.jpg"
+    ],
+    "description": "민서와 함께 환상의 나라 롯데월드로 마법 같은 가을 나들이를 다녀왔습니다! 토끼 귀 머리띠를 예쁘게 쓰고 무지개 의자에 앉아 씩씩하게 차례를 기다린 우리 민서, 생각보다 무서운 놀이기구들도 씩씩하고 용감하게 잘 타서 아빠를 깜짝 놀라게 했어요! 화려하고 신비로운 10분 롯데월드 퍼레이드 쇼와 알록달록 놀이기구들의 즐거운 순간들을 사진과 영상으로 가득 담았습니다. 🎡🎢🎠🐰✨",
+    "learningPoints": [],
+    "awards": "특별한 날 추억",
+    "likes": 0,
+    "reactions": {
+      "heart": 0,
+      "thumb": 0,
+      "star": 0,
+      "trophy": 0
+    },
+    "comments": []
+  },
+  {
     "id": "art_minseo_20261029_3d_characters",
     "student": "민서",
     "studentKey": "minseo",
@@ -1631,22 +1659,27 @@ const ARCHIVE_MASTER_DATA = [
     "comments": []
   },
   {
-    "id": "evt_minseo_lotteworld_20261105",
-    "student": "민서",
-    "studentKey": "minseo",
+    "id": "evt_minsu_everland_20261109",
+    "student": "민수",
+    "studentKey": "minsu",
     "stage": "초등",
     "stageName": "초등학교 생활·체험 활동",
     "year": 2026,
     "semester": "2학기",
-    "date": "2026-11-05",
+    "date": "2026-11-09",
     "category": "소풍/현장학습",
-    "categoryIcon": "🏰",
-    "title": "🏰 민서와 함께한 마법 같은 롯데월드 모험! 🎡🐰",
-    "coverImage": "assets/media/minseo/activities/minseo_20261105_lotteworld_01.jpg",
+    "categoryIcon": "🎡",
+    "title": "🎡 민수와 아빠의 스릴 만점 에버랜드 대모험! 🦁🎆",
+    "coverImage": "assets/media/minsu/activities/minsu_20261109_everland_01.jpg",
     "galleryImages": [
-      "assets/media/minseo/activities/minseo_20261105_lotteworld_01.jpg"
+      "assets/media/minsu/activities/minsu_20261109_everland_01.jpg",
+      "assets/media/minsu/activities/minsu_20261109_everland_02.jpg",
+      "assets/media/minsu/activities/minsu_20261109_everland_03.jpg",
+      "assets/media/minsu/activities/minsu_20261109_everland_04.jpg",
+      "assets/media/minsu/activities/minsu_20261109_everland_05.jpg",
+      "assets/media/minsu/activities/minsu_20261109_everland_06.jpg"
     ],
-    "description": "민서와 함께 환상의 나라 롯데월드로 마법 같은 가을 나들이를 다녀왔습니다! 토끼 귀 머리띠를 예쁘게 쓰고 무지개 의자에 앉아 씩씩하게 차례를 기다린 우리 민서, 생각보다 무서운 놀이기구들도 씩씩하고 용감하게 잘 타서 아빠를 깜짝 놀라게 했어요! 화려하고 신비로운 10분 롯데월드 퍼레이드 쇼와 알록달록 놀이기구들의 즐거운 순간들을 사진과 영상으로 가득 담았습니다. 🎡🎢🎠🐰✨",
+    "description": "어제 민수와 단둘이 가을 정취 가득한 에버랜드로 특별한 나들이를 다녀왔습니다! 스릴 넘치는 대형 놀이기구와 티익스프레스도 씩씩하게 즐기고, 사파리 월드에서 멋진 백호와 불곰도 가까이서 만났어요. 밤하늘을 화려하게 수놓은 퍼레이드와 환상적인 불꽃놀이까지, 아빠와 민수 둘만의 잊지 못할 행복한 추억을 사진과 하이라이트 영상으로 가득 담았습니다! 🎢🦁🎆✨",
     "learningPoints": [],
     "awards": "특별한 날 추억",
     "likes": 0,
